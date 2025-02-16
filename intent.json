@@ -1,0 +1,40 @@
+{
+    "intents": [
+      {
+        "tag": "billing",
+        "patterns": [
+          "I have a problem with my bill",
+          "Why was I charged extra?",
+          "Can you explain my bill?"
+        ],
+        "responses": [
+          "Please provide your billing details so we can assist you.",
+          "We can help you resolve billing issues. Please share your account number."
+        ]
+      },
+      {
+        "tag": "technical_support",
+        "patterns": [
+          "My app is not working",
+          "I can't log in to my account",
+          "The website is down"
+        ],
+        "responses": [
+          "Please try restarting the app. If the issue persists, contact our technical team.",
+          "We are looking into the issue. Please provide more details."
+        ]
+      },
+      {
+        "tag": "account_issues",
+        "patterns": [
+          "I can't access my account",
+          "My account was hacked",
+          "How do I reset my password?"
+        ],
+        "responses": [
+          "You can reset your password using the 'Forgot Password' option.",
+          "We will help you secure your account. Please verify your identity."
+        ]
+      }
+    ]
+  }
