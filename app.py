@@ -1,5 +1,14 @@
 import streamlit as st
 from intent_chatbot import predict_intent  
+import nltk
+import os
+
+# ✅ Ensure NLTK uses the correct directory for downloads
+nltk.data.path.append(os.path.join(os.getcwd(), "nltk_data"))
+
+# ✅ Force download the correct resource
+nltk.download('punkt', download_dir=os.path.join(os.getcwd(), "nltk_data"))
+nltk.download('stopwords', download_dir=os.path.join(os.getcwd(), "nltk_data"))
 
 # Set page title and icon
 st.set_page_config(page_title="Intent-Based Chatbot", page_icon="🤖")
