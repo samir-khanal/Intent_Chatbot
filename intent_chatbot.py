@@ -9,6 +9,7 @@ import pandas as pd
 
 # Download necessary NLTK data
 nltk.download('punkt')# Tokenizer models
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 nltk.download('stopwords') # Stopword list
 
