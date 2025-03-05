@@ -15,7 +15,7 @@ st.set_page_config(page_title="Intent-Based Chatbot", page_icon="🤖")
 
 # App Title and Description
 st.title("🤖 Intent-Based Chatbot")
-st.write("Welcome! Ask me anything, and I'll try to understand your intent and respond accordingly.")
+st.write("Welcome! Ask me a intent based questions like 'greeting','weather','time','goodbyes' and I'll try to understand your intent and respond accordingly.")
 
 # Initialize session state to store chat history
 if "chat_history" not in st.session_state:
